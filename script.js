@@ -22,3 +22,12 @@ prev_btn.forEach(btn => btn.addEventListener('click', () => {
     n = (n - 1 + imgs.length) % imgs.length;
     changesSlide();
 }));
+
+const scrollContainer = document.querySelectorAll('.produts');
+
+for (const item of scrollContainer) {
+    item.addEventListener('wheel', (evt) => {
+        evt.preventDefault();
+        item.scrollLeft += evt.deltaY;
+    });
+}

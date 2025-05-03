@@ -197,3 +197,71 @@ nav {
 .product-slider .produts::-webkit-scrollbar {
     display: none;
 }
+
+.product-slider-with-price {
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.product-slider-with-price .produts {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product-slider-with-price .produts::-webkit-scrollbar {
+    display: none;
+}
+
+.products-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
+
+.products-card img {
+    width: 110px;
+    margin: 0 50px;
+}
+
+.produts-offers p {
+    background: #be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px 0;
+    font-size: 13px;
+}
+
+.produts-offers span {
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.product-price {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.product-card h4 {
+    color: #525252;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
+}
